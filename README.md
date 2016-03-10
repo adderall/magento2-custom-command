@@ -4,7 +4,7 @@ Magento2 Webkul Custom Command Module - allow to create your own custom commands
 
 How to Install the module 
 --------------------------
-copy Webkul folder in app/code
+copy and paste the downloaded folder & file to app/code/Webkul/CustomCommand
 
 Run Following Command via terminal
 -----------------------------------

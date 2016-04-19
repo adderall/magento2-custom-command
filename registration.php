@@ -1,14 +1,14 @@
 <?php
 /**
- * Webkul Software
+ * Mkfmn Software
  *
  * @category Magento
- * @package  Webkul_CustomCommand
- * @author   Webkul
- * @license  https://store.webkul.com/license.html
+ * @package  Mkfmn_CustomCommand
+ * @author   Mkfmn
+ * @license  https://store.mkfmn.com/license.html
  */
 \Magento\Framework\Component\ComponentRegistrar::register(
     \Magento\Framework\Component\ComponentRegistrar::MODULE,
-    'Webkul_CustomCommand',
+    'Mkfmn_CustomCommand',
     __DIR__
 );

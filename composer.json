@@ -1,6 +1,6 @@
 {
-  "name": "webkul/custom-command",
-  "description": "Webkul Magento2 Order Delete Custom Command Extension",
+  "name": "adderall/custom-command",
+  "description": "Mkfmn Magento2 Order Delete Custom Command Extension",
   "type":"magento2-module",
   "require": {
     "php": "~5.5.0|~5.6.0|~7.0.0"
@@ -12,7 +12,7 @@
   "autoload": {
     "files": [ "registration.php" ],
     "psr-4": {
-      "Webkul\\CustomCommand\\": ""
+      "Mkfmn\\CustomCommand\\": ""
     }
   }
 }

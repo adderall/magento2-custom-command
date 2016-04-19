@@ -1,19 +1,19 @@
 <?xml version="1.0"?>
 <!--
 /**
- * Webkul Software
+ * Mkfmn Software
  *
  * @category Magento
- * @package  Webkul_CustomCommand
- * @author   Webkul
- * @license  https://store.webkul.com/license.html
+ * @package  Mkfmn_CustomCommand
+ * @author   Mkfmn
+ * @license  https://store.Mkfmn.com/license.html
  */
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
     <type name="Magento\Framework\Console\CommandList">
         <arguments>
             <argument name="commands" xsi:type="array">
-                <item name="order_delete_command" xsi:type="object">Webkul\CustomCommand\Console\Command\OrderDeleteCommand</item>
+                <item name="order_delete_command" xsi:type="object">Mkfmn\CustomCommand\Console\Command\OrderDeleteCommand</item>
             </argument>
         </arguments>
     </type>

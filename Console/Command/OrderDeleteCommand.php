@@ -1,13 +1,13 @@
 <?php
 /**
- * Webkul Software
+ * Mkfmn Software
  *
  * @category Magento
- * @package  Webkul_CustomCommand
- * @author   Webkul
- * @license  https://store.webkul.com/license.html
+ * @package  Mkfmn_CustomCommand
+ * @author   Mkfmn
+ * @license  https://store.Mkfmn.com/license.html
  */
-namespace Webkul\CustomCommand\Console\Command;
+namespace Mkfmn\CustomCommand\Console\Command;
 
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
@@ -74,7 +74,7 @@ class OrderDeleteCommand extends Command
      */
     protected function configure()
     {
-        $this->setName('webkul:orderDelete')
+        $this->setName('Mkfmn:orderDelete')
             ->setDescription('Order Delete command')
             ->setDefinition([
                 new InputArgument(
